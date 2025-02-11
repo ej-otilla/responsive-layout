@@ -94,5 +94,46 @@ footer {
 
 @media screen and (min-width: 1000px) {
     /* For devices 1000px wide or GREATER */
+    
+    /* HEADER STYLES */
 
+    body header {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    body header h1 {
+        font-size: 2rem;
+    }
+
+    /* CONTENT STYLES */
+
+    #container {
+        flex-direction: row;
+        margin: 2rem 0 1rem;
+    }
+
+    /* MAIN STYLES */
+
+    main {
+        width: 75%;
+    }
+
+    main figure {
+        gap: 1rem;
+        flex-direction: row;
+    }
+
+    main figure img {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* ASIDE STYLES */
+
+    body aside {
+        padding: 0.5rem;
+        width: 25%;
+    }
 }
