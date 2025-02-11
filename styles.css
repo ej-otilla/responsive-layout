@@ -7,3 +7,27 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* HEADER STYLES */
+
+body header {
+    display: flex;
+    flex-direction: column;
+    background-color: #120323;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+body header h1 {
+    color: #97bf04;
+    font-size: 1.5rem;
+}
+
+/* CONTAINER STYLES */
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
