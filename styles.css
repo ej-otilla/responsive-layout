@@ -70,3 +70,29 @@ body aside {
 body aside h3 {
     font-weight: bold;
 }
+
+/* FOOTER STYLES */
+
+footer {
+    background-color: #d9043d;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/* MEDIA QUERIES FOR RESPONSIVE LAYOUTS */
+
+@media screen and (max-width: 768px) {
+    /* For devices LESS THAN 768px wide */
+    
+}
+
+@media screen and (max-width: 1000px) {
+    /* For devices LESS THAN 1000px wide */
+
+}
+
+@media screen and (min-width: 1000px) {
+    /* For devices 1000px wide or GREATER */
+
+}
