@@ -90,14 +90,35 @@ footer {
 
 /* MEDIA QUERIES FOR RESPONSIVE LAYOUTS */
 
-@media screen and (max-width: 768px) {
-    /* For devices LESS THAN 768px wide */
+@media screen and (min-width: 768px) {
+    /* For devices 768px or GREATER */
+
+    /* HEADER STYLES */
     
-}
-
-@media screen and (max-width: 1000px) {
-    /* For devices LESS THAN 1000px wide */
-
+    body header {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    /* CONTAINER STYLES */
+    
+    #container {
+        margin: 2rem 0 1rem;
+        justify-content: center;
+    }
+    
+    /* MAIN STYLES */
+    
+    main figure {
+        flex-direction: row;
+        margin: 1rem 2rem 2rem;
+    }
+    
+    main figure img {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 @media screen and (min-width: 1000px) {
