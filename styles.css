@@ -21,6 +21,7 @@ body header {
     flex-direction: column;
     background-color: #120323;
     align-items: center;
+    text-align: center;
     padding: 1rem;
     gap: 1rem;
 }
@@ -134,8 +135,8 @@ footer {
     }
 
     main figure img {
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
     }
 
     /* ASIDE STYLES */
